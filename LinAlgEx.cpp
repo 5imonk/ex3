@@ -18,8 +18,8 @@ int main() {
   std::vector<double> v {read_vector(file_name)};
 
   std::vector<std::vector<double>> AC (MatrixMultiplication(A, C));
-  std::string outp_file2{"AC"};
-  write_matrix(AC, outp_file2);
+  outp_file = "AC";
+  write_matrix(AC, outp_file);
 
   std::vector<std::vector<double>> AB (MatrixMultiplication(A, B));
   std::vector<double> ABv (MatrixMultiplication(AB, v));
