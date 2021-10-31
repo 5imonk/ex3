@@ -1,0 +1,1 @@
+/usr/bin/c++  -Werror -Wall -pedantic -rdynamic CMakeFiles/LinAlgEx.dir/LinAlgEx.cpp.o -o LinAlgEx  -Wl,-rpath,"/home/simon/Documents/Numerical Simulation and Scientific Computing/ex3/build" libMatrix.so 

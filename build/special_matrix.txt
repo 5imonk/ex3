@@ -1,0 +1,1 @@
+All the non diagonal entries are almost zero, and the diagonal entries are not zero. So we might have an eigendecomposition of A here, and the values close to zero are just rounding errors (and should be zero when not computing with machine numbers).
